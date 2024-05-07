@@ -17,6 +17,7 @@
 *	You should have received a copy of the GNU General Public License					  *
 *	along with The Chili Direct3D Engine.  If not, see <http://www.gnu.org/licenses/>.    *
 ******************************************************************************************/
+
 #include "WindowsMessageMap.h"
 #include <string>
 #include <sstream>

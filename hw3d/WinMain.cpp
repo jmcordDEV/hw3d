@@ -1,6 +1,8 @@
 #include <Windows.h>
 #include "WindowsMessageMap.h"
 
+//test commit
+
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
 	static WindowsMessageMap mm;
