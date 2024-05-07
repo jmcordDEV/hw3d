@@ -1,7 +1,11 @@
 #include <Windows.h>
+#include "WindowsMessageMap.h"
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
+	static WindowsMessageMap mm;
+	OutputDebugStringA(mm(msg, wParam, lParam).c_str());
+
 	switch (msg)
 	{
 	case WM_CLOSE:
